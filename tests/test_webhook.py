@@ -2,7 +2,7 @@ from typing import TYPE_CHECKING, Dict
 
 import aiohttp
 import pytest
-from nextcord import Client
+from discord import Client
 
 from topgg import WebhookManager
 
