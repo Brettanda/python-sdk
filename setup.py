@@ -34,7 +34,7 @@ setup(
     author=f"{metadata.author}, Top.gg",
     author_email="shivaco.osu@gmail.com",
     url="https://github.com/top-gg/python-sdk",
-    version=metadata.version,
+    version="nextcord" or metadata.version,
     packages=find_packages(),
     license=metadata.license,
     description="A simple API wrapper for Top.gg written in Python.",
